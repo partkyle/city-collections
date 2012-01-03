@@ -5,10 +5,9 @@
 *  children.
 */
 
-function BinHeap(compareTo, minMax){
+function BinHeap(compareTo){
 	this.data = [];	
 	this.compareTo = compareTo;
-	this.minMax = minMax;
 }
 
 BinHeap.prototype = {
@@ -41,7 +40,6 @@ BinHeap.prototype = {
 				return;
 			}
 		}
-		console.log(node);
 		throw new Error("Node not found: " + node);
 	},
 	heapifyUp: function(n){
