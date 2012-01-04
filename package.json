@@ -1,6 +1,6 @@
 {
   "name": "city-collections"
-, "version": "0.0.2"
+, "version": "0.0.3"
 , "author": "Siyegen"
 , "description": "Simple collections"
 , "devDependencies": { "jasmine-node" : ">=1.0.13"
