@@ -7,7 +7,7 @@
                      , "should"       : ">=0.4.2"
                      }
 , "repository": { "type": "git"
-                , "url": "git://github.com/siyegen/node_binheap.git"
+                , "url" : "git://github.com/siyegen/node_binheap.git"
                 }
 , "scripts": {"test": "jasmine-node spec"}
 }
